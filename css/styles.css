@@ -378,6 +378,59 @@ address {
   line-height: 1.25;
   color: #4985ff;
 }
+
+/* projects */
+.projects {
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+.projects-ttle {
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(53 / 36);
+  text-align: center;
+
+  color: #000000;
+}
+.projects-text {
+  max-width: 730px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-size: 16px;
+  line-height: calc(25 / 16);
+  text-align: center;
+
+  color: #999999;
+}
+.projects .list {
+  display: flex;
+  margin-bottom: 50px;
+}
+.projects .item {
+  width: calc((100% - 90px) / 4);
+}
+
+.projects .item + .item {
+  margin-left: 30px;
+}
+.projects-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #ffffff;
+  background: #4985ff;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  border: none;
+  min-width: 200px;
+  height: 45px;
+  margin: 0 auto;
+  display: block;
+
+}
 /* Video section */
 
 .video-section-wrap {
@@ -428,4 +481,4 @@ address {
   color: transparent;
   border: 1px solid #ffffff;
   border-radius: 200px;
-}
+  }
