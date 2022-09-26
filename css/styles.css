@@ -415,7 +415,7 @@ address {
   transform: translateX(-50%);
   width: 970px;
   height: 430px;
-  background-image: url(/img/video-player-bg.jpg);
+  background-image: url(/img/video-player-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
