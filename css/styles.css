@@ -378,6 +378,7 @@ address {
   line-height: 1.25;
   color: #4985ff;
 }
+
 /* projects */
 .projects {
   padding-top: 100px;
@@ -428,4 +429,56 @@ address {
   height: 45px;
   margin: 0 auto;
   display: block;
+
 }
+/* Video section */
+
+.video-section-wrap {
+  position: relative;
+  max-width: 1920px;
+  height: 570px;
+  background-image: url(/img/video-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.video-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(53 / 36);
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.video-text {
+  font-size: 16px;
+  line-height: calc(25 / 16);
+  color: #ffffff;
+}
+.video-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 970px;
+  height: 430px;
+  background-image: url(/img/video-player-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+.video-play-btn {
+  width: 300px;
+  height: 100px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 200px;
+  }
