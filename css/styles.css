@@ -378,3 +378,28 @@ address {
   line-height: 1.25;
   color: #4985ff;
 }
+/* projects */
+.projects {
+  
+}
+.projects-ttle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(53/36);
+  text-align: center;
+
+  color: #000000;
+}
+.projects-text {
+  font-size: 16px;
+  line-height: calc(25/16);
+  text-align: center;
+
+color: #999999;
+}
+.list {
+}
+.item {
+}
+.projects-btn {
+}
